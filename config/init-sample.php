@@ -33,8 +33,8 @@ define('OAUTH_CONSUMER_SECRET', '');
 // Specify notebook
 define('EVERIDEA_NOTEBOOK', '');
 
-define('EVERNOTE_SERVER', 'https://sandbox.evernote.com');
-define('NOTESTORE_HOST', 'sandbox.evernote.com');
+define('EVERNOTE_SERVER', 'https://www.evernote.com');
+define('NOTESTORE_HOST', 'www.evernote.com');
 define('NOTESTORE_PORT', '443');
 define('NOTESTORE_PROTOCOL', 'https');
 

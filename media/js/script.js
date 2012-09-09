@@ -1,9 +1,10 @@
 // need auth
 $('.need-auth').on('click', function() {
-	if (!$('body').data('visitor')) {
-		location.href = '/auth/';
-		return false;
-	}
+	if (+$('body').data('visitor'))
+		return true; // logged in.
+
+	location.href = '/auth/';
+	return false;
 });
 
 
